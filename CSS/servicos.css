@@ -1,0 +1,85 @@
+hr {
+    border-bottom: 1px solid #2d2dca;
+    width: 20%;
+    margin: 2% auto;
+}
+
+#servicos {
+    background-color: black;
+}
+
+#conteudos_servicos {
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    flex-wrap: wrap;
+}
+
+#conteudos_servicos div {
+    border: 1px solid;
+    width: 48%;
+    overflow: hidden;
+    border-radius: 5px;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2%;
+}
+
+#conteudos_servicos div img {
+    width: 4.375rem;
+    display: block;
+    margin: 2% auto 0;
+}
+
+#conteudos_servicos div p {
+    text-align: center;
+}
+
+#layout{
+    background: linear-gradient(rgba(0, 0, 0, 0), black ), url('https://assets.awwwards.com/awards/images/2021/09/creative-layouts-thumb3.jpg');
+    background-size: cover;
+   }
+
+#chart{
+    background: linear-gradient(rgba(0, 0, 0, 0), black ), url('https://wptablebuilder.com/wp-content/uploads/2022/07/Best_Table_of_Contents_Plugins_for_WordPress_WPTB1920x960.png');
+    background-size: cover;
+   }
+
+#paleta{
+    background: linear-gradient(rgba(0, 0, 0, 0), black ), url('https://images.wallpapersden.com/image/download/color-palette-abstract-4k_a2lsa2uUmZqaraWkpJRobWllrWdma2U.jpg');
+    background-size: cover;
+   }
+
+#ancoragem{
+    background: linear-gradient(rgba(0, 0, 0, 0), black ), url('https://fronty.com/static/uploads/python/html.png');
+    background-size: cover;
+   }
+
+#pokedex{
+    background: linear-gradient(rgba(0, 0, 0, 0), black ), url('https://wallpapercave.com/wp/wp10742485.png');
+    background-size: cover;
+   }
+
+#login{
+    background: linear-gradient(rgba(0, 0, 0, 0), black ), url('https://static.vecteezy.com/system/resources/previews/007/164/537/original/fingerprint-identity-sensor-data-protection-system-podium-hologram-blue-light-and-concept-free-vector.jpg');
+    background-size: cover;
+   }
+#clock{
+    background: linear-gradient(rgba(0, 0, 0, 0), black ), url('https://img.joomcdn.net/58582e349bf34bfc5b4ab7703a9c0ac23355bb23_original.jpeg');
+    background-size: cover;
+   }
+#calculadora{
+    background: linear-gradient(rgba(0, 0, 0, 0), black ), url('https://png.pngtree.com/thumb_back/fh260/background/20200703/pngtree-mathematics-education-calculator-ruler-hand-drawn-background-image_340649.jpg');
+    background-size: cover;
+   }
+#imc{
+    background: linear-gradient(rgba(0, 0, 0, 0), black ), url('https://swhsnavigator.com/wp-content/uploads/2022/01/PPfv1.jpg');
+    background-size: cover;
+   }
+#gallery{
+    background: linear-gradient(rgba(0, 0, 0, 0), black ), url('https://png.pngtree.com/background/20230519/original/pngtree-variety-of-paintings-hang-on-a-wall-picture-image_2665672.jpg');
+    background-size: cover;
+   }
+

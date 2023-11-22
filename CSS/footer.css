@@ -1,0 +1,39 @@
+#contatos {
+    background: linear-gradient( black,  rgba(0, 0, 0, 0)), url('https://media.istockphoto.com/id/1372310741/vector/abstract-black-background-geometric-texture.jpg?s=612x612&w=0&k=20&c=Vcg_QAsvBsf-Ae7sApZxy5_kq62eSSze-_ZQVVoD4No=') no-repeat center;
+    background-size: cover;
+    padding-bottom: 2%;
+    text-align: center;
+}
+
+#horizontal {
+    display: flex;
+    gap: 2%;
+}
+
+.contatos_card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 2%;
+}
+
+.contatos_card img {
+    width: 6%;
+    margin-right: 2%;
+}
+
+.contatos_card a {
+    color: #fff;
+}
+
+h4 {
+    width: 30%;
+    display: block;
+    margin: auto;
+    color: aliceblue;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 2px 2px 6px rgb(217, 196, 4);
+}

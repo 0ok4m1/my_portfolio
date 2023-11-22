@@ -1,0 +1,75 @@
+#fotos {
+    background: linear-gradient( black, rgba(0, 0, 0, 0) 80%, black), url('https://media.istockphoto.com/id/1372310741/vector/abstract-black-background-geometric-texture.jpg?s=612x612&w=0&k=20&c=Vcg_QAsvBsf-Ae7sApZxy5_kq62eSSze-_ZQVVoD4No=') no-repeat center;
+    background-size: cover;
+
+}
+
+#fotos h2 {
+    margin-bottom: 4%;
+}
+
+#fotos .foto-galeria {
+    width: 100%;
+    height: 80vh;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#fotos .foto-galeria .imagem {
+    width: 30%;
+    height: 40%;
+    border-radius: 5px;
+    padding: 0 2%;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#fotos .foto-galeria .imagem img {
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+    transition: .2s linear;
+}
+
+#fotos .foto-galeria .imagem:hover img {
+    transform: scale(1.1);
+}
+
+#fotos .popup-image {
+    position: fixed;
+    top: 0;  left: 0;
+    background: rgba(0, 0, 0, .9);
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    display: none;
+}
+
+#fotos .popup-image span {
+    position: absolute;
+    top: 0; right: 10px;
+    font-size: 60px;
+    font-weight: bolder;
+    color: #fff;
+    cursor: pointer;
+    z-index: 100;
+}
+
+#fotos .popup-image img {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid #fff;
+    border-radius: 5px;
+    width: 750px;
+    object-fit: cover;
+}
+
+@media (max-width:700px){
+    #fotos .popup-image img {
+        width: 100%;
+    }
+}

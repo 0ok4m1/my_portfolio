@@ -1,0 +1,46 @@
+nav {
+    background: url('../Images/ezgif.com-rotate.gif');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    height: 20vh;
+}
+
+#logo {
+    width: 5.62rem;
+    height: 5.62rem;
+    margin-left: 2%;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 2px solid gold;
+}
+
+#logo img {
+    width: 100%;
+    height: 100%;
+}
+
+nav ul {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav ul li {
+    padding: .5%;
+}
+
+nav ul li a {
+    color: #fff;
+    text-shadow: 2px 2px #000;
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: 'Yellowtail', cursive;
+}
+
+nav ul li a:hover {
+    color: goldenrod;
+    border-bottom: 3px solid #2d2dca;
+    border-radius: 15px;
+}
