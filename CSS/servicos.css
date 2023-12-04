@@ -66,20 +66,29 @@ hr {
     background: linear-gradient(rgba(0, 0, 0, 0), black ), url('https://static.vecteezy.com/system/resources/previews/007/164/537/original/fingerprint-identity-sensor-data-protection-system-podium-hologram-blue-light-and-concept-free-vector.jpg');
     background-size: cover;
    }
+
 #clock{
     background: linear-gradient(rgba(0, 0, 0, 0), black ), url('https://img.joomcdn.net/58582e349bf34bfc5b4ab7703a9c0ac23355bb23_original.jpeg');
     background-size: cover;
    }
+
 #calculadora{
     background: linear-gradient(rgba(0, 0, 0, 0), black ), url('https://png.pngtree.com/thumb_back/fh260/background/20200703/pngtree-mathematics-education-calculator-ruler-hand-drawn-background-image_340649.jpg');
     background-size: cover;
    }
+
 #imc{
     background: linear-gradient(rgba(0, 0, 0, 0), black ), url('https://swhsnavigator.com/wp-content/uploads/2022/01/PPfv1.jpg');
     background-size: cover;
    }
+
 #gallery{
     background: linear-gradient(rgba(0, 0, 0, 0), black ), url('https://png.pngtree.com/background/20230519/original/pngtree-variety-of-paintings-hang-on-a-wall-picture-image_2665672.jpg');
+    background-size: cover;
+   }
+
+#weather {
+    background: linear-gradient(rgba(0, 0, 0, 0), black ), url('https://images.ctfassets.net/hrltx12pl8hq/6TIZLa1AKeBel0yVO7ReIn/1fc0e2fd9fcc6d66b3cc733aa2547e11/weather-images.jpg?fit=fill&w=1200&h=630');
     background-size: cover;
    }
 
